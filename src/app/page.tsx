@@ -31,7 +31,14 @@ export default function Home() {
                   />
                 </div>
                 <div className="w-full text-center mb-8 md:mb-0">
-                  <h1 className="text-4xl font-normal mb-6">
+                  <div className='mb-17'>
+                    <Link href="#">Trang chủ</Link>
+                    <span>{' > '}</span>
+                    <Link href="#">Tài nguyên</Link>
+                    <span>{' > '}</span>
+                    <Link href="#" className='font-bold'>Blog</Link>
+                  </div>
+                  <h1 className="text-6xl font-normal mb-6 leading-28">
                     Blog <span className="text-transparent bg-clip-text font-bold
                                           bg-[linear-gradient(90deg,#54ABB1_0%,#54ABB1_40%,#85EEB3_71%,#54ABB1_100%)]">FOSO</span> – 
                     <br />
